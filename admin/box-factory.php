@@ -145,7 +145,7 @@ class P2P_Box_Factory extends P2P_Factory {
 
 		$box = $this->create_box( $directed );
 
-		$method = 'ajax_' . $_REQUEST['subaction'];
+		$method = 'ajax_' . esc_attr( $_REQUEST['subaction'] );
 
 		$box->$method();
 	}
