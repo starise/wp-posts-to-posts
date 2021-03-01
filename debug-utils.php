@@ -37,4 +37,3 @@ function _p2p_walk( $posts, $level = 0 ) {
 	if ( 0 == $level )
 		echo "</pre>\n";
 }
-

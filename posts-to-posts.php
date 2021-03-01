@@ -4,8 +4,8 @@ Plugin Name: Posts 2 Posts
 Description: Create many-to-many relationships between all types of posts.
 Version: 1.6.6
 Author: scribu
-Author URI: http://scribu.net/
-Plugin URI: http://scribu.net/wordpress/posts-to-posts
+Author URI: https://github.com/starise
+Plugin URI: https://github.com/starise/wp-posts-to-posts
 Text Domain: posts-to-posts
 Domain Path: /lang
 */
