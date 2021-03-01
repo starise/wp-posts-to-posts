@@ -23,7 +23,7 @@ Add this repository in your `composer.json`:
   "require": {
     "php": ">=7.4",
     "composer/installers": "~1.10",
-    "starise/posts-to-posts": "^1.6.6"
+    "starise/posts-to-posts": "^1.10"
   },
 ...
   "extra": {
@@ -31,7 +31,9 @@ Add this repository in your `composer.json`:
       "public/app/mu-plugins/{$name}/": [
         "type:wordpress-muplugin",
         "starise/posts-to-posts"
-      ],
+      ]
+    }
+  }
 ...
 ```
 
